@@ -1,0 +1,59 @@
+section.three {
+    background-color: #ffd17e;
+    padding: 210px 0px;
+}
+section.three .container{
+    align-items: center;
+    
+}
+
+section.three .content,
+section.three .image-container {
+    flex: 1 1 50%;
+}
+
+section.three .container .image-container {
+    text-align: center;
+}
+
+section.three .container .image-container img{
+    max-width: 460px;
+    border-radius: 50%;
+    
+}
+
+section.three .container .content h1{
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+    font-family: "Montserrat";
+    
+}
+
+/* section.three .container .content{
+    display: flex;
+    flex-direction: column;
+} */
+
+section.three .container .content p{
+
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 60px 0px;
+
+}
+
+section.three .container .content button{
+    width: 322px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: #21243d;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}

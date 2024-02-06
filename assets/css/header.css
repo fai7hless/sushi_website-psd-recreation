@@ -1,0 +1,47 @@
+header .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    align-items: center;
+}
+
+header .logo-container,
+header nav,
+header .button-container {
+    flex: 2;
+}
+
+header .logo-container{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+
+header .logo-container{
+    text-decoration: none;
+}
+
+header nav {
+    flex: 3;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+header .button-container {
+    text-align: end;
+    font-size: 25px;
+}

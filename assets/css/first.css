@@ -1,0 +1,44 @@
+section.first{
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.first .container {
+    display: flex;
+    flex-direction: column;
+    padding: 250px 0px;
+}
+
+section.first .container h1{
+    text-align: left;
+    font-size: 125px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-bottom: 80px;
+}
+
+section.first .container p{
+    
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-bottom:70px;
+    max-width: 620px;
+}
+
+section.first .container button.order{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    width: 322px;
+    height: 65px;
+    border-radius: 33px;
+    background-color: #21243d;
+}

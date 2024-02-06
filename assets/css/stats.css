@@ -1,0 +1,69 @@
+section.stats .container {
+    flex-direction: column;
+    padding: 200px 0px;
+   
+}
+
+section.stats .container div.text h1{
+    font-size: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+section.stats .container div.text p{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 50px 0px;
+    max-width: 50%;
+    margin: 0 auto;
+    
+}
+
+section.stats .container div.bubbles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section.stats .container div.bubbles span{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+section.stats .container div.bubbles p {
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+section.stats .container div.bubbles .statistics-item>div{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 0 auto;
+}
+
+.statistics-item {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
